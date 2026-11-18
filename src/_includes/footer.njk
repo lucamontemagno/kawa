@@ -1,0 +1,15 @@
+<footer>
+  <div class="footer-inner">
+    <a class="footer-brand" href="index.html">
+      <img src="img/logo.png" alt="" aria-hidden="true">
+      <span>KAWA</span>
+    </a>
+    <p class="footer-tagline">Il rock e il blues,<br>senza confini.</p>
+    <nav class="footer-nav" aria-label="Navigazione nel piè di pagina">
+      {% for item in navigation %}
+        <a href="{{ item.href }}">{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+    <p class="footer-note">© Kawa · Napoli, Italia</p>
+  </div>
+</footer>

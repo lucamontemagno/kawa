@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "index",
+    "href": "index.html",
+    "label": "Home",
+    "icon": "img/home-black-shape_white.svg"
+  },
+  {
+    "slug": "kawa",
+    "href": "kawa.html",
+    "label": "Chi Siamo",
+    "icon": "img/band_white.svg"
+  },
+  {
+    "slug": "shows",
+    "href": "shows.html",
+    "label": "Shows",
+    "icon": "img/usb-tool-of-guitar-shape_white.svg"
+  },
+  {
+    "slug": "discover",
+    "href": "discover.html",
+    "label": "Discover",
+    "icon": "img/headphones_white.svg"
+  },
+  {
+    "slug": "contatti",
+    "href": "contatti.html",
+    "label": "Contatti",
+    "icon": "img/ring-phone-auricular-interface-symbol-with-lines-of-the-sound_white.svg"
+  }
+]
