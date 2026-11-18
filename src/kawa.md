@@ -23,7 +23,7 @@ Tre musicisti, tre voci complementari: chitarra, basso e batteria si incontrano 
     </div>
     <div class="member-info">
       <h3>Nando Amatore</h3>
-      <p>Chitarra</p>
+      <p>Chitarra/Voce</p>
     </div>
   </article>
   <article class="member-card">
