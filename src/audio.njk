@@ -1,0 +1,32 @@
+---
+layout: base.njk
+title: Audio | Kawa
+description: Ascolta e scarica i brani dei Kawa in formato MP3.
+permalink: audio.html
+---
+<p class="eyebrow audio-eyebrow">La musica dei Kawa</p>
+<h1>Audio</h1>
+<p class="page-lead">Ascolta i brani, lasciati portare dal suono e porta la musica dei Kawa con te.</p>
+
+<section class="audio-library" aria-label="Brani disponibili">
+  <div class="audio-library-heading">
+    <span>La raccolta</span>
+    <span>{{ tracks | length }} brani · MP3</span>
+  </div>
+  <div class="track-list">
+    {% for track in tracks %}
+      <article class="track-card">
+        <span class="track-number" aria-hidden="true">{{ track.number }}</span>
+        <div class="track-details">
+          <h2>{{ track.title }}</h2>
+          <span>{{ track.category }}</span>
+        </div>
+        <audio controls preload="none" aria-label="Ascolta {{ track.title }}">
+          <source src="audio/{{ track.file }}" type="audio/mpeg">
+          Il tuo browser non supporta la riproduzione audio.
+        </audio>
+      </article>
+    {% endfor %}
+  </div>
+  <p class="audio-note">File MP3 disponibili per l'ascolto e il download.</p>
+</section>

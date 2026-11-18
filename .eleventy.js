@@ -3,6 +3,7 @@ module.exports = function (eleventyConfig) {
     css: "css",
     img: "img",
     videos: "videos",
+    audio: "audio",
     "src/js": "js"
   });
 

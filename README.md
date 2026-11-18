@@ -28,6 +28,7 @@ Pubblica il contenuto della cartella `_site/` su un hosting statico. Per rigener
 - `src/kawa.md`: presentazione della band
 - `src/shows.njk`: date live
 - `src/discover.njk`: video
+- `src/audio.njk`: ascolto e download dei brani MP3 in `audio/`
 - `src/contatti.njk`: contatti
 - `src/_includes/menu.njk` e `src/_includes/footer.njk`: elementi condivisi
 - `css/`, `img/`, `videos/`: fogli di stile e risorse statiche

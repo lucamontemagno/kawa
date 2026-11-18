@@ -24,6 +24,12 @@
     "icon": "img/headphones_white.svg"
   },
   {
+    "slug": "audio",
+    "href": "audio.html",
+    "label": "Audio",
+    "icon": "img/headphones_white.svg"
+  },
+  {
     "slug": "contatti",
     "href": "contatti.html",
     "label": "Contatti",

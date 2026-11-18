@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Adagio",
+    "file": "adagio.mp3",
+    "number": "01",
+    "category": "Reinterpretazione"
+  },
+  {
+    "title": "Aria sulla quarta corda di Bach",
+    "file": "aria.mp3",
+    "number": "02",
+    "category": "Reinterpretazione"
+  },
+  {
+    "title": "Cristal Rose",
+    "file": "cristal rose.mp3",
+    "number": "03",
+    "category": "Brano"
+  },
+  {
+    "title": "Je sto vicino a te",
+    "file": "je sto vicino a te.mp3",
+    "number": "04",
+    "category": "Brano"
+  },
+  {
+    "title": "SCPACC",
+    "file": "scpacc.mp3",
+    "number": "05",
+    "category": "Brano"
+  },
+  {
+    "title": "Situazioni immaginabili",
+    "file": "situazioni immaginabili.mp3",
+    "number": "06",
+    "category": "Brano"
+  },
+  {
+    "title": "We Are",
+    "file": "we are.mp3",
+    "number": "07",
+    "category": "Brano"
+  }
+]
